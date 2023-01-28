@@ -1,0 +1,23 @@
+{
+  "name": "create-my-readme",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/francescasnatt/create-my-README.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/francescasnatt/create-my-README/issues"
+  },
+  "homepage": "https://github.com/francescasnatt/create-my-README#readme",
+  "dependencies": {
+    "inquirer": "^6.5.2"
+  }
+}
