@@ -17,6 +17,10 @@ ${response.description}
 
 * [Tests](#tests)
 
+* [Licence](#licence)
+
+* [Contributing](#contributing)
+
 * [Questions](#questions)
 
 ## Installation
@@ -42,6 +46,10 @@ ${response.tests}
 ## Licence
 
 This project requires the ${response.licence} licence.
+
+## Contributing
+
+The following developers contributed to this project: ${response.contributing}
 
 ## Questions
 

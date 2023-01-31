@@ -52,7 +52,12 @@ const questions = [
       message: 'What kind of licence should your project have?',
       name: 'licence',
       choices: ['MIT', 'APACHE 2.0', 'GPL 3.0', 'BSD 3', 'None'],
-    }
+    },
+    {
+      type: 'input',
+      message: 'Name all developers who contributed toward this project.',
+      name: 'contributing',
+    },
 ];
 
 // function to write README file
