@@ -2,8 +2,6 @@ const fs = require('fs');
 const path = require('path');
 const inquirer = require('inquirer');
 const generateMarkdown = require('./Utils/generateMarkdown');
-// const generateReadme = require('./Utils/generateMarkdown');
-
 
 // array of questions for user
 const questions = [
@@ -43,11 +41,6 @@ const questions = [
       name: 'contact',
     },
     {
-      type: 'input',
-      message: 'Input the link to your GitHub repo.',
-      name: 'repo',
-    },
-    {
       type: 'list',
       message: 'What kind of licence should your project have?',
       name: 'licence',
@@ -72,7 +65,7 @@ function init() {
   .prompt(questions)
   .then((response) => {
     const readMe = generateMarkdown(response);
-    writeToFile('README.md', readMe);
+    writeToFile('sampleREADME.md', readMe);
     });
 }
 

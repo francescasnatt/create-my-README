@@ -27,9 +27,7 @@ ${response.description}
 
 To install necessary dependencies, run the following command:
 
-\`\`\`
-${response.install}
-\`\`\`
+\`${response.install}\`
 
 ## Usage
 
@@ -39,9 +37,7 @@ ${response.usage}
 
 To run tests, run the following command:
 
-\`\`\`
-${response.tests}
-\`\`\`
+\`${response.tests}\`
 
 ## Licence
 
