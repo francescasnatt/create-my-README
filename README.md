@@ -3,7 +3,7 @@
     
 ## Description
 
-A simplle README file generator that allows users to answer questions about their project and automatically create a README file within their project based on their input. The generator is easy to use and saves time and effort for the user.
+A simple README file generator that allows users to answer questions about their project and automatically create a README file within their project based on their input. The generator is easy to use and saves time and effort for the user.
 
 ## Table of Contents 
 
